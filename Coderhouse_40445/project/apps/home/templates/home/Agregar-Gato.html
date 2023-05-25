@@ -1,12 +1,12 @@
 {% extends "home/base.html" %}   
 
 {% block contenido %}  
-    <h1>Agregar Gato</h1>
+    <h1>agregar gato</h1>
 
     <form action = "" method= "post">
         {% csrf_token %}
         {{form}}
-        <input type ="submit" value="Agregar Gato">
+        <input type ="submit" value="Agregar gato">
     </form>
 
 {% endblock contenido %}  

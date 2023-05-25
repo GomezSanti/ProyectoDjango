@@ -35,4 +35,4 @@ def agregar_exotico(request):
     else:
         form= forms.ExoticoForm()
     context={"form": form}
-    return render(request, "home/agregar-Exotico.html", context)
+    return render(request, "home/agregar-exotico.html", context)
