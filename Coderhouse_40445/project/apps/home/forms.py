@@ -1,6 +1,7 @@
 from django import forms
 
 from . import models
+from models import Perro,Gato, Exotico
 
 class PerroForm(forms.ModelForm):
     class Meta:

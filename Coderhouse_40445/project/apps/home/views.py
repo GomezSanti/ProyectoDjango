@@ -1,6 +1,7 @@
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render, redirect 
 from . import forms
+from .models import Perro,Gato,Exotico
 
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, "home/index.html")
